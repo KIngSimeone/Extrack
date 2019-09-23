@@ -1,0 +1,15 @@
+Purpose
+*To log expenses
+*List expenses
+*Put graphs
+*Save in sqlite db
+
+*Extrack would have three pages
+*Page one would have App Title and nav bar it would also have the add expenses option and would show today expense 
+* Page two would have weekly expense graph
+*page three would have montly expense graph
+
+
+PseudoCode
+*A login /sign up page(optional)
+*

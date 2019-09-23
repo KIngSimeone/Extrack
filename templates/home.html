@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Extrack
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    </head>
+    <body>
+        <header>
+            <h2>Extrack</h2>
+            <nav>
+                <ul>
+                    <li>Day</li>
+                    <li>Week</li>
+                    <li>Month</li>
+                </ul>
+            </nav>
+        </header>
+            <section>
+                <div id="date-bar">
+                    <form method="POST" action="/">
+                        <input type="date" name="date" id="dateform"> 
+                        <label for="expense">Expense</label>
+                        <input type="text" name="expense" id="expense">
+                        <label for="amount">Amount</label>
+                        <input type="number" name='amount' id="amount">
+                        <button type="submit" id="subex">Submit Expense</button>
+
+                    </form>
+                    <!--
+                    <form action="{{ url_for('search') }}">
+                        <input type="number" name="search" placeholder="Search" value="{{request.form.search}}"></br>
+                        <button type="submit">Search</button>
+                   </form>
+
+                    {% for res in results %}
+                    <ul>
+                        <li>Date:{{res.toddate}}</li>
+                        <li>Amount:{{ res.Amount }}</li>
+                        <li>Expense:{{ res.Expense }}</li>
+                    </ul>
+
+                    {% endfor %}
+
+                -->
+                </div>
+            </section>
+            
+           
+      
+
+    </body>
+</html>

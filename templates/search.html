@@ -1,0 +1,15 @@
+<form action="{{ url_for('search') }}">
+    <input type="number" name="lookup" placeholder="Search" ></br>
+    <button type="submit">Search</button>
+</form>
+
+{% for res in results %}
+<ul>
+    <li>Date:{{res.toddate}}</li>
+    <li>Amount:{{ res.Amount }}</li>
+    <li>Expense:{{ res.Expense }}</li>
+</ul>
+
+{% endfor %}
+
+</div>
